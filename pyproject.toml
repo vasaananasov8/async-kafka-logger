@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "async-kafka-logger"
+version = "0.1.0"
+description = ""
+authors = ["Nikita Shagalov <shagalovprog@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+aiokafka = "^0.10.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
